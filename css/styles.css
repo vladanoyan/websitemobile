@@ -11,7 +11,7 @@ body {
     margin-top: 3px; }
 
   .navbar-inverse .navbar-nav li:last-child {
-    margin-left: 158px; }
+    margin-left: 0; }
 
   .navbar .navbar-collapse {
     text-align: center; } }
