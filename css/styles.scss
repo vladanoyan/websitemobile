@@ -15,7 +15,7 @@
 body {
   margin: 0;
   color: #373a3c;
-    background: #f4f4f4;
+  background: #fff;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -360,21 +360,10 @@ ul.clients_list{
     border: 2px solid #00cc7b;
     text-decoration: none;
   }
-  .row1
-  {
-    margin-top: 70px;
-  }
-  .imgleft
-  {
-    margin-top: 4px;
-    float: right;
-    margin-left: 34px;
-  }
-  #slide2 {
-      margin-top: 50px;
-      margin-bottom: 20px;
 
-      .child-box {
+  #slide2 {
+      background-color: #f4f4f4;
+          .child-box {
           @extend .flex;
           float: left;
           width: 100%;
@@ -417,22 +406,8 @@ ul.clients_list{
           }
       }
   }
-  .research
-  {
-    text-align: center;
-    font-weight: 800;
-    font-size: 16px;
-    margin-bottom: 15px;
-    color: black;
 
-  }
-  .paragraf
-  {
-    text-align: justify;
-    font-size: small;
-    margin-top: 27px;
-    clear: right;
-  }
+
 
   .img1{
     margin-top: 4px;
