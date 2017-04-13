@@ -285,7 +285,8 @@ body {
     h1 {
       text-align: center;
       font-size: 50px;
-      color: red;
+      color: #fff;
+      font-weight: 600;
     }
   }
   .text {
@@ -450,7 +451,7 @@ svg:not(:root) {
   @media (max-width: 991px) {
     display: none;
   }
-  z-index: 9999;
+  z-index: 999;
   position: absolute;
   top: 0;
   right: 17%;
@@ -620,10 +621,18 @@ ul.clients_list {
     text-align: center;
     border-top:1px solid #eee;
   }
-  .hr
-  {
+  .hr {
     text-align: center;
-    border-top:1px solid #eee;
+    border-top: 1px solid #eee;
+    &:hover {
+      -webkit-transform: scale(1.01);
+      -ms-transform: scale(1.01);
+      transform: scale(1.01);
+      z-index: 50;
+      -webkit-box-shadow: 0 0 20px 5px rgba(237, 237, 237, 1);
+      -moz-box-shadow: 0 0 50px 10px rgba(237, 237, 237, 1);
+      box-shadow: 0 0 50px 10px rgba(237, 237, 237, 1);
+    }
   }
   .startup
   {
