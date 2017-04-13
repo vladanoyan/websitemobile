@@ -622,6 +622,8 @@ ul.clients_list {
   {
     text-align: center;
   }
+
+
   .mount
   {
     display: inline-block;
@@ -636,15 +638,16 @@ ul.clients_list {
   .hr {
     text-align: center;
     border-top: 1px solid #eee;
-    &:hover {
-      -webkit-transform: scale(1.01);
-      -ms-transform: scale(1.01);
-      transform: scale(1.01);
-      z-index: 50;
-      -webkit-box-shadow: 0 0 20px 5px rgba(237, 237, 237, 1);
-      -moz-box-shadow: 0 0 50px 10px rgba(237, 237, 237, 1);
-      box-shadow: 0 0 50px 10px rgba(237, 237, 237, 1);
-    }
+  }
+  .transitionEffect:hover {
+    -webkit-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    transform: scale(1.01);
+    z-index: 50;
+    -webkit-box-shadow: 0 0 20px 5px rgba(237, 237, 237, 1);
+    -moz-box-shadow: 0 0 50px 10px rgba(237, 237, 237, 1);
+    box-shadow: 0 0 50px 10px rgba(237, 237, 237, 1);
+    transition: all 0.5s;
   }
   .startup
   {

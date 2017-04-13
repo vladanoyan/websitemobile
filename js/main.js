@@ -26,4 +26,8 @@ $(document).ready(function() {
     //set the new value of the dashoffset to create the drawing effect
     $(".path").css("stroke-dashoffset", $newUnit - $offsetUnit);
   });
+
+
+
 });
+

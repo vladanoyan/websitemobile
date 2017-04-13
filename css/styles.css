@@ -483,14 +483,16 @@ li.seen_image {
 .hr {
   text-align: center;
   border-top: 1px solid #eee; }
-  .hr:hover {
-    -webkit-transform: scale(1.01);
-    -ms-transform: scale(1.01);
-    transform: scale(1.01);
-    z-index: 50;
-    -webkit-box-shadow: 0 0 20px 5px #ededed;
-    -moz-box-shadow: 0 0 50px 10px #ededed;
-    box-shadow: 0 0 50px 10px #ededed; }
+
+.transitionEffect:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 50;
+  -webkit-box-shadow: 0 0 20px 5px #ededed;
+  -moz-box-shadow: 0 0 50px 10px #ededed;
+  box-shadow: 0 0 50px 10px #ededed;
+  transition: all 0.5s; }
 
 .startup {
   margin-top: 170px; }
