@@ -27,6 +27,22 @@ $(document).ready(function() {
     $(".path").css("stroke-dashoffset", $newUnit - $offsetUnit);
   });
 
+    var y = $('#slide4');
+    var top=y.offset().top;
+    console.log(top);
+
+
+    window.onscroll = function() {
+        if (window.pageYOffset > top){
+            $('.ki').css({'transform':'rotateY(0deg)'});
+            $('.ki').css({'transition':'all 1.5s ease-in-out'});
+
+        }
+        else {
+            $('.ki').css({'transform':'rotateY(90deg)'});
+            $('.ki').css({'transition':'all 0.5s ease-in-out'});
+        }
+    }
 
 
 });

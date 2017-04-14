@@ -177,8 +177,10 @@ li.nav-item.dropdown .dropdown-menu.top_bub {
   top: 0; }
 
 @media screen and (max-width: 721px) {
-  .text {
-    display: none; } }
+  .text .header-title {
+    font-size: 16px; }
+  .text .header-subtitle {
+    font-size: 13px; } }
 @media screen and (max-width: 600px) {
   ul.clients_list {
     flex-wrap: wrap;
@@ -216,8 +218,14 @@ li.nav-item.dropdown .dropdown-menu.top_bub {
 
 #slide2 {
   background-color: #f4f4f4; }
+  @media (min-width: 991px) {
+    #slide2 .container {
+      padding: 50px 0; } }
+  #slide2 .ki {
+    transform: rotateY(90deg);
+    perspective: 800px;
+    perspective-origin: 50% 100px; }
   #slide2 .child-box {
-    float: left;
     width: 100%;
     margin: 0; }
     @media (max-width: 768px) {
@@ -376,7 +384,7 @@ li.seen_image {
   background-color: #fff;
   color: white;
   font-size: 16px;
-  padding: 8px 21px;
+  padding: 6px 12px;
   border: 1px solid #2bb06c;
   display: inline-block; }
 
